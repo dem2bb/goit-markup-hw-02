@@ -1,3 +1,10 @@
+:root {
+    --primary-text-color: #212121;
+    --navigation-but-color:  #2196F3;
+    --secondary-text-color: #757575;
+    
+}
+
 
 ul {
     list-style: none;
@@ -11,32 +18,38 @@ ul {
 }
 .logo:hover
 {
-    color: #2196F3;
+    color:var(--navigation-but-color);
 
 }
 /* SITE NAV */
 .site-nav a {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .site-nav a:focus,
 .site-nav a:hover
  {
-color: #2196F3;
+    color:var(--navigation-but-color);
+}
+
+.site-nav .current {
+    color:var(--navigation-but-color);
+
 }
 
 /* AUTH NAV */
 .auth-nav a {
-    color: #212121;
+    color: var(--secondary-text-color);
+    ;
 }
 .auth-nav a:focus,
 .auth-nav a:hover
  {
-color: #2196F3;
+    color:var(--navigation-but-color);
 }
 
 /*COPYCOLOR*/
 .section-title {
-    color: #212121;
+    color: var(--primary-text-color);
 
 }
 /* HERO */
@@ -46,14 +59,14 @@ color: #2196F3;
 }
 /*SECTION 2*/
 .section2-list p {
-    color: #757575;
+    color: var(--secondary-text-color);
     }
 
     /*ABOUT US */
 
     /*OUR TEAM */
     .ourteam p {
-        color: #757575;
+        color: var(--secondary-text-color);
         }
 
         /*FOOTER */
@@ -74,3 +87,20 @@ color: #2196F3;
          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
          border-radius: 4px;
                 }
+
+
+
+                                /*PORTFOLIO*/
+
+    .portfolio p {
+        color: var(--secondary-text-color);
+
+    } 
+
+
+
+
+
+
+
+                         
