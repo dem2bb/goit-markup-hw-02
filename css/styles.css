@@ -168,38 +168,36 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background: #2196F3;
-
-           /*MAIN*/
-           .portfolio p {
-            color: var(--secondary-text-color); 
         }
-    .button-portfolio:focus,
-    .button-portfolio:hover {
-        color: #2196F3;
-    }
-    .button-portfolio 
-    {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        background-color: #F5F4FA;
-        color: var(--primary-text-color) 
-       
-    }       
+          
+        
+                /*PORTFOLIO.HTML*/
+        
+        /*MAIN*/
+.portfolio p {
+    color: var(--secondary-text-color)
+}
+
+.button-portfolio 
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background-color: #F5F4FA;
+    color: var(--primary-text-color) 
+       }       
+   .button-portfolio:focus,
+.button-portfolio:hover {
+     color: var(--navigation-but-color)
+}
+
 .portfolio h1 {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
 }
 .portfolio p {
 font-size: 16px;
 line-height: 1.87;
 }
-
-
-
-
-
-
-                         
